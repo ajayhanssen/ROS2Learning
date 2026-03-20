@@ -41,6 +41,7 @@ ros2_ws
         -py_pubsub
             -py_pubsub/
                 -__init__.py
+                -publisher_member_function.py (Only after manually creating)
             -resource/
                 -py_pubsub
             -test/
@@ -52,3 +53,26 @@ ros2_ws
             -setup.cfg
             -setup.py
 ```
+
+On how to write the python code, look at the src directory. The new python files containing the code go into the same directory as *\__init__.py*
+
+All the needed dependencies need to be added into *package.xml*, right below **<license>**, like this:
+
+~~~
+<exec_depend>rclpy</exec_depend>
+<exec_depend>numpy</exec_depend>
+...
+~~~
+
+The next step is to create an **entry point**. This tells the compiler what function to call and what the name of the executable is. In *setup.py*, at **entry_points**:
+
+~~~
+entry_points={
+        'console_scripts': [
+            'talker = py_pubsub.publisher_member_function:main',
+            'listener = py_pubsub.subscriber_member_function:main'
+        ],
+    },
+~~~
+
+Then run the *rosdep* command from above to check if dependencies are installed and build using *colcon*.
