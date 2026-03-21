@@ -1,0 +1,25 @@
+[0.977s] Invoking command in '/home/andi/Desktop/ROS2Learning/ros2_turtlectrl/src/py_turtlectrl': PYTHONPATH=/home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_turtlectrl build --build-base /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/build install --record /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/install.log --single-version-externally-managed install_data
+[1.285s] running egg_info
+[1.286s] writing ../../build/py_turtlectrl/py_turtlectrl.egg-info/PKG-INFO
+[1.286s] writing dependency_links to ../../build/py_turtlectrl/py_turtlectrl.egg-info/dependency_links.txt
+[1.286s] writing entry points to ../../build/py_turtlectrl/py_turtlectrl.egg-info/entry_points.txt
+[1.287s] writing requirements to ../../build/py_turtlectrl/py_turtlectrl.egg-info/requires.txt
+[1.287s] writing top-level names to ../../build/py_turtlectrl/py_turtlectrl.egg-info/top_level.txt
+[1.288s] reading manifest file '../../build/py_turtlectrl/py_turtlectrl.egg-info/SOURCES.txt'
+[1.289s] adding license file 'LICENSE'
+[1.289s] writing manifest file '../../build/py_turtlectrl/py_turtlectrl.egg-info/SOURCES.txt'
+[1.290s] running build
+[1.290s] running build_py
+[1.290s] copying py_turtlectrl/turtle_ctrl.py -> /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/build/lib/py_turtlectrl
+[1.290s] running install
+[1.290s] running install_lib
+[1.291s] copying /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/build/lib/py_turtlectrl/turtle_ctrl.py -> /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/python3.10/site-packages/py_turtlectrl
+[1.292s] byte-compiling /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/python3.10/site-packages/py_turtlectrl/turtle_ctrl.py to turtle_ctrl.cpython-310.pyc
+[1.292s] running install_data
+[1.293s] running install_egg_info
+[1.294s] removing '/home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/python3.10/site-packages/py_turtlectrl-0.0.0-py3.10.egg-info' (and everything under it)
+[1.295s] Copying ../../build/py_turtlectrl/py_turtlectrl.egg-info to /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/python3.10/site-packages/py_turtlectrl-0.0.0-py3.10.egg-info
+[1.295s] running install_scripts
+[1.320s] Installing controller script to /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/py_turtlectrl
+[1.320s] writing list of installed files to '/home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/install.log'
+[1.355s] Invoked command in '/home/andi/Desktop/ROS2Learning/ros2_turtlectrl/src/py_turtlectrl' returned '0': PYTHONPATH=/home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_turtlectrl build --build-base /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/build install --record /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/install.log --single-version-externally-managed install_data

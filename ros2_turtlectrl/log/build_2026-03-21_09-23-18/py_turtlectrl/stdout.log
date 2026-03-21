@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/py_turtlectrl/py_turtlectrl.egg-info
+writing ../../build/py_turtlectrl/py_turtlectrl.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_turtlectrl/py_turtlectrl.egg-info/dependency_links.txt
+writing entry points to ../../build/py_turtlectrl/py_turtlectrl.egg-info/entry_points.txt
+writing requirements to ../../build/py_turtlectrl/py_turtlectrl.egg-info/requires.txt
+writing top-level names to ../../build/py_turtlectrl/py_turtlectrl.egg-info/top_level.txt
+writing manifest file '../../build/py_turtlectrl/py_turtlectrl.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_turtlectrl/py_turtlectrl.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/py_turtlectrl/py_turtlectrl.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/build
+creating /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/build/lib
+creating /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/build/lib/py_turtlectrl
+copying py_turtlectrl/turtle_ctrl.py -> /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/build/lib/py_turtlectrl
+copying py_turtlectrl/__init__.py -> /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/build/lib/py_turtlectrl
+running install
+running install_lib
+creating /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/python3.10/site-packages/py_turtlectrl
+copying /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/build/lib/py_turtlectrl/turtle_ctrl.py -> /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/python3.10/site-packages/py_turtlectrl
+copying /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/build/lib/py_turtlectrl/__init__.py -> /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/python3.10/site-packages/py_turtlectrl
+byte-compiling /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/python3.10/site-packages/py_turtlectrl/turtle_ctrl.py to turtle_ctrl.cpython-310.pyc
+byte-compiling /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/python3.10/site-packages/py_turtlectrl/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/share/ament_index
+creating /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/share/ament_index/resource_index
+creating /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/share/ament_index/resource_index/packages
+copying resource/py_turtlectrl -> /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/share/ament_index/resource_index/packages
+copying package.xml -> /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/share/py_turtlectrl
+running install_egg_info
+Copying ../../build/py_turtlectrl/py_turtlectrl.egg-info to /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/python3.10/site-packages/py_turtlectrl-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/andi/Desktop/ROS2Learning/ros2_turtlectrl/install/py_turtlectrl/lib/py_turtlectrl
+writing list of installed files to '/home/andi/Desktop/ROS2Learning/ros2_turtlectrl/build/py_turtlectrl/install.log'

@@ -1,0 +1,3 @@
+[console_scripts]
+controller = py_turtlectrl.turtle_ctrl:main
+
