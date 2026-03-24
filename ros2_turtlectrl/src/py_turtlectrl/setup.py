@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='andi',
     maintainer_email='andi.thoeni@gmail.com',
-    description='TODO: Package description',
+    description='Incredibly bad Pure Pursuit implementation',
     license='Apache-2.0',
     extras_require={
         'test': [
