@@ -31,3 +31,8 @@ and put
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 ~~~
 into *.bashrc*
+
+Start the navigation using:
+~~~
+ros2 launch turtlebot3_navigation2  navigation2.launch.py use_sim_time:=True map:=maps/my_map.yaml
+~~~
