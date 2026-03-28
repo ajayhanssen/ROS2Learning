@@ -4,12 +4,12 @@
 		<static>false</static>
 
 		<link name='base_link'>
-			<pose>0 0 .1 0 0 0</pose>
+			<pose>0 0 .05 0 0 0</pose>
 
 			<collision name='collision'>
 				<geometry>
 					<box>
-						<size>.4 .2 .1</size>
+						<size>.15 .1 .05</size>
 					</box>
 				</geometry>
 			</collision>
@@ -29,16 +29,16 @@
 			<visual name='visual'>
 				<geometry>
 					<box>
-						<size>.4 .2 .1</size>
+						<size>.15 .1 .05</size>
 					</box>
 				</geometry>
 			</visual>
 
 			<collision name='caster_collision'>
-				<pose>-0.15 0 -0.05 0 0 0</pose>
+				<pose>-0.04 0 -0.025 0 0 0</pose>
 				<geometry>
 					<sphere>
-						<radius>.05</radius>
+						<radius>.025</radius>
 					</sphere>
 				</geometry>
 
@@ -55,10 +55,10 @@
 			</collision>
 
 			<visual name='caster_visual'>
-				<pose>-0.15 0 -0.05 0 0 0</pose>
+				<pose>-0.04 0 -0.025 0 0 0</pose>
 				<geometry>
 					<sphere>
-						<radius>.05</radius>
+						<radius>.025</radius>
 					</sphere>
 				</geometry>
 			</visual>
@@ -66,12 +66,12 @@
 			<!--  Wheels-->
 		</link>
 		<link name="left_wheel">
-			<pose>0.1 0.13 0.1 0 1.5707 1.5707</pose>
+			<pose>0.06 0.0625 0.05 0 1.5707 1.5707</pose>
 			<collision name="collision">
 				<geometry>
 					<cylinder>
-						<radius>.1</radius>
-						<length>.05</length>
+						<radius>.05</radius>
+						<length>.025</length>
 					</cylinder>
 				</geometry>
 			</collision>
@@ -91,8 +91,8 @@
 			<visual name="visual">
 				<geometry>
 					<cylinder>
-						<radius>.1</radius>
-						<length>.05</length>
+						<radius>.05</radius>
+						<length>.025</length>
 					</cylinder>
 				</geometry>
 			</visual>
@@ -100,12 +100,12 @@
 
 
 		<link name="right_wheel">
-			<pose>0.1 -0.13 0.1 0 1.5707 1.5707</pose>
+			<pose>0.06 -0.0625 0.05 0 1.5707 1.5707</pose>
 			<collision name="collision">
 				<geometry>
 					<cylinder>
-						<radius>.1</radius>
-						<length>.05</length>
+						<radius>.05</radius>
+						<length>.025</length>
 					</cylinder>
 				</geometry>
 			</collision>
@@ -125,8 +125,8 @@
 			<visual name="visual">
 				<geometry>
 					<cylinder>
-						<radius>.1</radius>
-						<length>.05</length>
+						<radius>.05</radius>
+						<length>.025</length>
 					</cylinder>
 				</geometry>
 			</visual>
@@ -165,8 +165,8 @@
 			<right_joint>right_wheel_hinge</right_joint>
 
 			<!-- Robot parameters -->
-			<wheel_separation>0.26</wheel_separation> <!-- distance between wheels -->
-			<wheel_diameter>0.2</wheel_diameter>
+			<wheel_separation>0.125</wheel_separation> <!-- distance between wheels -->
+			<wheel_diameter>0.1</wheel_diameter>
 
 			<!-- Limits -->
 			<max_wheel_torque>10</max_wheel_torque>
