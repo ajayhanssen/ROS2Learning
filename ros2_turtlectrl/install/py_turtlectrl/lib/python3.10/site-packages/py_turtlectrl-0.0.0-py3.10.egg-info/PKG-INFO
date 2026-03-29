@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: py-turtlectrl
 Version: 0.0.0
-Summary: TODO: Package description
+Summary: Incredibly bad Pure Pursuit implementation
 Home-page: UNKNOWN
 Maintainer: andi
 Maintainer-email: andi.thoeni@gmail.com
